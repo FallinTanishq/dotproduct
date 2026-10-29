@@ -1,3 +1,13 @@
+-- [Tanyx Scripts] Entry Notification
+pcall(function()
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Tanyx Scripts",
+        Text = "Connecting & Loading Steal An Egg...",
+        Duration = 5
+    })
+end)
+print("[Tanyx Scripts] Bootstrapper triggered successfully.")
+
 -- ====================================================================
 -- Tanyx Scripts | Loading Screen Engine
 -- ====================================================================
